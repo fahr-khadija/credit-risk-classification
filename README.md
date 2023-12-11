@@ -36,5 +36,12 @@ weighted avg       1.00      1.00      1.00     19384
 
 
 ### Data Analysis Report
+#### Logistic Regression Model with the Original Data
+the logistic regression model performs very well in predicting both healthy loans (label "0") and high-risk loans (label "1"). The model has high precision and recall for both classes, resulting in an overall accuracy of 99% and strong F1-scores
+#### Predicted Logistic Regression Model with Resampled Training Data
+the logistic regression model seems to be performing very well  particularly in correctly identifying healthy loans (label "0"). For high-risk loans (label "1"), while the precision is little bit  lower, the model compensates with a high recall, resulting in a good overall performance.
+#### Summary
+The logistic regression model trained on resampled data demonstrates enhanced efficacy in addressing imbalanced datasets, specifically in the accurate identification of instances belonging to the minority class, such as high-risk loans. This improvement is notably reflected in the elevated recall for high-risk loans, resulting in superior overall F1-scores and accuracy.
+
 
 
